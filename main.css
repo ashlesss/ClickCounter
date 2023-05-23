@@ -1,0 +1,67 @@
+html {
+    min-height: 100%;
+    display: grid;
+}
+body {
+    /* display: grid;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 50%; */
+    margin: auto;
+    background-color: rgb(64, 64, 64)
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 50%; */
+}
+.btms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+.saveNum {
+    display: flex;
+    flex-direction: row;
+}
+#counter {
+    text-align: center;
+    font-size: 2rem;
+    width: 250px;
+    margin-bottom: 4%;
+}
+#clicker {
+    /* font-size: 40px; */
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(25, 135, 84);
+    margin-top: 2%;
+    /* margin-right: 2%; */
+}
+#clicker1 {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(25, 135, 84);
+}
+#gen {
+    /* margin: auto; */
+    max-width: 500px;
+    background-color: rgb(77, 77, 77);
+    padding: 20px;
+    touch-action: manipulation;
+    border-radius: 25px;
+}
+#savednum {
+    color: rgb(179, 0, 0)
+}

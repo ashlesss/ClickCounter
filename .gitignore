@@ -27,3 +27,5 @@
 /clickCounter/*.ntvs*
 /clickCounter/*.njsproj
 /clickCounter/*.sln
+
+/clickCounter/.vscode

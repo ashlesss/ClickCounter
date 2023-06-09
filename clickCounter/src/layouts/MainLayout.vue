@@ -6,10 +6,7 @@
           <q-btn dense flat round icon="menu" @click="drawerOpen = !drawerOpen" />
   
           <q-toolbar-title>
-            <q-avatar>
-              <img src="https://cdn.quasar.dev/logo-v2/svg/logo-mono-white.svg">
-            </q-avatar>
-            Title
+            Click Counter
           </q-toolbar-title>
         </q-toolbar>
       </q-header>
@@ -39,7 +36,7 @@
               </q-item-section>
 
               <q-item-section>
-                Inbox
+                How 2 use
               </q-item-section>
             </q-item>
 
@@ -53,7 +50,7 @@
               </q-item-section>
 
               <q-item-section>
-                Star
+                Click Counter
               </q-item-section>
             </q-item>
 

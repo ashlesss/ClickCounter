@@ -2,7 +2,8 @@
     <q-page class="flex flex-center">
       <div>
         <q-input
-        input-class="text-center "
+        input-class="text-center"
+        input-style="font-size: 2em"
         v-model.number="model"
         type="number"
         filled
@@ -20,7 +21,7 @@
 
     setup() {
       return {
-        model: ref(10),
+        model: ref(0),
       }
     }
   })

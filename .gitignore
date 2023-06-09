@@ -1,0 +1,29 @@
+/clickCounter/.DS_Store
+/clickCounter/.thumbs.db
+/clickCounter/node_modules
+
+# Quasar core related directories
+/clickCounter/.quasar
+/clickCounter/dist
+
+# Cordova related directories and files
+/src-cordova/node_modules
+/src-cordova/platforms
+/src-cordova/plugins
+/src-cordova/www
+
+# Capacitor related directories and files
+/src-capacitor/www
+/src-capacitor/node_modules
+
+# Log files
+/clickCounter/npm-debug.log*
+/clickCounter/yarn-debug.log*
+/clickCounter/yarn-error.log*
+
+# Editor directories and files
+/clickCounter/.idea
+/clickCounter/*.suo
+/clickCounter/*.ntvs*
+/clickCounter/*.njsproj
+/clickCounter/*.sln
